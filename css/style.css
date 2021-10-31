@@ -1,0 +1,202 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ArialMT";
+  src: url("../fonts/16063.eot");
+  src: local("☺"), url("../fonts/16063.woff") format("woff"), url("../fonts/16063.ttf") format("truetype"), url("../fonts/16063.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.list li:nth-child(4), .list li:nth-child(3), .list li:nth-child(1), .top_p, .title {
+  color: #273d46;
+}
+
+body {
+  background: #e8e8e8 url("../img/Ellipse 1 copy@1X.png") 50% 130px no-repeat;
+}
+
+.content {
+  max-width: 841px;
+  margin: 0 auto;
+  padding: 168px 0 137px 0;
+}
+
+.top {
+  text-align: center;
+  margin: 0 0 65px 0;
+}
+
+.title {
+  opacity: 0.6;
+  font-family: "ArialMT";
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 0 0 15px 0;
+}
+
+.top_p {
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.content_img {
+  background-color: white;
+  box-shadow: 0px 15px 65px rgba(15, 16, 16, 0.15);
+  padding: 10px;
+  margin: 0 0 85px 0;
+}
+.content_img img {
+  max-width: 100%;
+}
+
+.content_bottom {
+  padding: 0 45px;
+}
+
+.content_text {
+  max-width: 736px;
+  opacity: 0.8;
+  line-height: 40px;
+  font-size: 24px;
+  color: #273d46;
+  margin: 0 0 48px 0;
+}
+.content_text p {
+  margin: 0 0 40px 0;
+}
+.content_text p:last-child {
+  margin: 0;
+}
+
+.list {
+  margin: 0 0 59px 0;
+}
+.list li {
+  font-family: "ArialMT";
+  font-size: 20px;
+  line-height: 36px;
+  background: url("../img/check icon@1X.png") left no-repeat;
+  padding: 0 0 0 35px;
+  margin: 0 0 15px 0;
+}
+.list li:hover {
+  background: url("../img/check icon@2X.png") left no-repeat;
+}
+.list li:nth-child(1) {
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.list li:nth-child(2) {
+  font-style: italic;
+  color: #80b7b3;
+}
+.list li:nth-child(3) {
+  font-weight: 700;
+}
+.list li:nth-child(4) {
+  text-decoration: line-through;
+}
+.list li:nth-child(4) span {
+  opacity: 0.3;
+}
+.list li:last-child {
+  margin: 0;
+}
+
+.link {
+  height: 44px;
+  display: inline-block;
+  padding: 0 30px;
+  border-radius: 24px;
+  background-color: #80b7b3;
+  box-shadow: 0px 6px 40px rgba(128, 183, 179, 0.54);
+  font-family: "ArialMT";
+  line-height: 44px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.link span {
+  background: url("../img/shape_2_9.png") right no-repeat;
+  padding: 0 30px 0 0;
+}
+.link span:hover {
+  background-color: #273d46;
+}
+.link:hover {
+  background-color: #273d46;
+}
+
+.link:active{
+  background-color:#818181;
+  } 
+  
